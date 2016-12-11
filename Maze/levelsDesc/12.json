@@ -53,6 +53,6 @@
 {"kind":"PotionOfInvisibility","x":31,"y":18}
 ],
 "objects" : [
-{"kind" : "Sign", "x" : 3, "y" : 3, "text" : "Ты не пройдешь! Бессмертные воины появятся из ниоткуда и преградят тебе путь!"}
+{"kind" : "Sign", "x" : 3, "y" : 3, "text" : "Maze_LevelsDesc_12"}
 ]
 }

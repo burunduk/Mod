@@ -63,6 +63,6 @@
 {"kind":"PotionOfLevitation","x":3,"y":44}
 ],
 "objects" : [
-{"kind" : "Sign", "x" : 5, "y" : 3, "text" : "Лети изо всех сил, не оборачиваясь!"}
+{"kind" : "Sign", "x" : 5, "y" : 3, "text" : "Maze_LevelsDesc_20"}
 ]
 }
