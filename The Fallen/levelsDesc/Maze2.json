@@ -24,10 +24,10 @@
    "items": [
       {"kind":"IronKey","x":9,"y":6},
       {"kind":"IronKey","x":9,"y":2},
-      {"kind":"Codex","x":4,"y":2,"text":"Ключ, который тебе пригодится, лежит в комнате с огненной ловушкой."}
+      {"kind":"Codex","x":4,"y":2,"text":"TheFallen_Maze2a"}
  ],
    "objects" : [
-      {"kind" : "Sign", "x" : 1, "y" : 2, "text" : "Пусть горит твой путь до тла, иначе не дойти до конца"},
-      {"kind" : "Sign", "x" : 13, "y" : 14, "text" : "Адыхай... эм... В смысле, молодец!"}
+      {"kind" : "Sign", "x" : 1, "y" : 2, "text" : "TheFallen_Maze2b"},
+      {"kind" : "Sign", "x" : 13, "y" : 14, "text" : "TheFallen_Maze2c"}
  ]
 }

@@ -36,7 +36,7 @@
 "exit":[13,6],
 "boss_level":true,
 "objects":[
-{"kind":"Sign","x":13,"y":23,"text":"Не сходи с заданного пути"}
+{"kind":"Sign","x":13,"y":23,"text":"TheFallen_PseudoBoss"}
 ],
 "mobs":[
 {"kind":"Shaman","x":11,"y":21},

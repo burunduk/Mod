@@ -28,7 +28,6 @@
       {"kind":"ClothArmor","x":3,"y":12}
  ],
    "objects" : [
-      {"kind" : "Sign", "x" : 3, "y" : 1, "text" : "FallenShop - падайте со скидкой!\n
-Хозяин в отпуске."}
+      {"kind" : "Sign", "x" : 3, "y" : 1, "text" : "TheFallen_Maze1"}
   ]
 }

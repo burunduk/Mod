@@ -42,7 +42,7 @@
    {"kind":"Barrel","x":10,"y":3},
    {"kind":"Barrel","x":10,"y": 13},
    {"kind":"Barrel","x":2,"y":17},
-   {"kind":"Sign","x":12,"y":28,"text":"С Хеллоуином вас, сундучки!"}
+   {"kind":"Sign","x":12,"y":28,"text":"TheFallen_Puzzle1"}
  ],
   "items":[
    {"kind":"PseudoPasty","x":13,"y":1},
