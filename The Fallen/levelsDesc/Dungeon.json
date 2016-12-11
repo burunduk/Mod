@@ -1,0 +1,39 @@
+{
+"Levels":{
+"0":{"kind":"SewerLevel","depth":0,"size":[0,0]},
+"cellar":{"kind":"PredesignedLevel","depth":1,"size":[7,11],"file":"levelsDesc/Cellar.json"},
+
+"fh":{"kind":"PredesignedLevel","depth":1,"size":[17,20],"file":"levelsDesc/FirstHall.json"},
+"strg1":{"kind":"RandomLevel","depth":2,"file":"levelsDesc/Stockroom1.json"},
+"strg2":{"kind":"RandomLevel","depth":3,"file":"levelsDesc/Stockroom2.json"},
+
+"pb":{"kind":"PredesignedLevel","depth":4,"size":[27,28],"file":"levelsDesc/PseudoBoss.json"},
+"b1":{"kind":"PredesignedLevel","depth":5,"size":[20,21],"file":"levelsDesc/Boss1.json","music":"Ambient.mp3"},
+
+"m1":{"kind":"PredesignedLevel","depth":6,"size":[16,16],"file":"levelsDesc/Maze1.json"},
+"m2":{"kind":"PredesignedLevel","depth":7,"size":[16,16],"file":"levelsDesc/Maze2.json"},
+"m3":{"kind":"PredesignedLevel","depth":8,"size":[15,30],"file":"levelsDesc/Maze3.json"},
+
+"s1":{"kind":"PredesignedLevel","depth":6,"size":[19,19],"file":"levelsDesc/Stantion1.json"},
+"s2":{"kind":"PredesignedLevel","depth":7,"size":[20,20],"file":"levelsDesc/Stantion2.json"},
+"s3":{"kind":"PredesignedLevel","depth":8,"size":[17,17],"file":"levelsDesc/Stantion3.json"},
+
+"c1":{"kind":"PredesignedLevel","deapth":11,"size":[25,25],"file":"levelsDesc/Castle1.json"}
+   },
+   "Graph":{
+      "0":[["cellar"],[]],
+      "cellar":[["fh"],["0"]],
+      "fh":[["strg1"],["s2"]],
+      "strg1":[["strg2"],["fh"]],
+      "strg2":[["pb"],["strg1"]],
+      "pb":[["b1"],["strg2"]],
+      "b1":[["s1","m1"],["pb"]],
+      "m1":[["m2"],["b1"],[2]],
+      "m2":[["m3"],["m1"]],
+      "m3":[[],["m2"]],
+      "s1":[["s2"],["b1"],[1]],
+      "s2":[["s3","fh","0"],["s1"]],
+      "s3":[["s2"],["s2"]]
+   },
+   "Entrance":"0"
+}
