@@ -36,7 +36,7 @@
 "exit":[13,6],
 "boss_level":true,
 "objects":[
-{"kind":"Sign","x":13,"y":23,"text":"TheFallen_PseudoBoss"}
+{"kind":"Sign","x":13,"y":23,"text":"Sign_Way"}
 ],
 "mobs":[
 {"kind":"Shaman","x":11,"y":21},
@@ -56,11 +56,11 @@
 {"kind":"ScrollOfWeaponUpgrade","x":24,"y":18},
 {"kind":"RubyBow","x":4,"y":4},
 {"kind":"FrostArrow","x":4,"y":4,"quantity":75},
-{"kind":"Shuriken","x":24,"y":4,"quantity":30},
-{"kind":"PotionOfMight","x":24,"y":4},
+{"kind":"Shuriken","x":22,"y":4,"quantity":30},
+{"kind":"PotionOfMight","x":22,"y":4},
 {"kind":"SkeletonKey","x":2,"y":18},
 {"kind":"SkeletonKey","x":24,"y":18},
 {"kind":"SkeletonKey","x":4,"y":4},
-{"kind":"SkeletonKey","x":24,"y":4}
+{"kind":"SkeletonKey","x":22,"y":4}
 ]
 }

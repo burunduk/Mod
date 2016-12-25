@@ -27,7 +27,7 @@
       {"kind":"Codex","x":4,"y":2,"text":"TheFallen_Maze2a"}
  ],
    "objects" : [
-      {"kind" : "Sign", "x" : 1, "y" : 2, "text" : "TheFallen_Maze2b"},
-      {"kind" : "Sign", "x" : 13, "y" : 14, "text" : "TheFallen_Maze2c"}
+      {"kind":"Sign","x":1,"y":2,"text":"Sign_BurnYourWay"},
+      {"kind":"Sign","x":13,"y":14,"text":"Sign_Pyromaniac"}
  ]
 }

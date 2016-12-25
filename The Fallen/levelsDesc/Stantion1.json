@@ -26,6 +26,6 @@
    "entrance":[9,1],
    "exit":[9,17],
    "objects": [
-      {"kind":"Sign","x":9,"y":2,"text":"TheFallen_Stantion1"}
+      {"kind":"Sign","x":9,"y":2,"text":"Sign_DangerZone"}
  ]
 }

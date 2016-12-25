@@ -17,8 +17,13 @@
 "s1":{"kind":"PredesignedLevel","depth":6,"size":[19,19],"file":"levelsDesc/Stantion1.json"},
 "s2":{"kind":"PredesignedLevel","depth":7,"size":[20,20],"file":"levelsDesc/Stantion2.json"},
 "s3":{"kind":"PredesignedLevel","depth":8,"size":[17,17],"file":"levelsDesc/Stantion3.json"},
+"s3_1":{"kind":"PredesignedLevel","depth":8,"size":[5,6],"file":"levelsDesc/Stantion3_1.json"},
+"s4":{"kind":"PredesignedLevel","depth":9,"size":[25,25],"file":"levelsDesc/Stantion4.json"},
+"b_s":{"kind":"PredesignedLevel","depth":10,"size":[25,25],"file":"levelsDesc/Boss_stantion.json"},
 
-"c1":{"kind":"PredesignedLevel","deapth":11,"size":[25,25],"file":"levelsDesc/Castle1.json"}
+"c1":{"kind":"PredesignedLevel","deapth":11,"size":[25,25],"file":"levelsDesc/Castle1.json"},
+
+"skull":{"kind":"PredesignedLevel","deapth":16,"size":[25,25],"file":"levelsDesc/Def1.json"}
    },
    "Graph":{
       "0":[["cellar"],[]],
@@ -33,7 +38,11 @@
       "m3":[[],["m2"]],
       "s1":[["s2"],["b1"],[1]],
       "s2":[["s3","fh","0"],["s1"]],
-      "s3":[["s2"],["s2"]]
+      "s3":[["s4","b_s","c1"],["s2"]],
+      "s3_1":[["s3"],["s3"],[2]],
+      "s4":[["b_s"],["s3"]],
+      "b_s":[["s3_1"],["s4"]],
+      "c1":[["c1"],["s3"]]
    },
    "Entrance":"0"
 }

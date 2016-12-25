@@ -34,11 +34,11 @@
 {"kind":"Scorpio","x":18,"y":12}
 ],
 "objects":[
-{"kind":"Sign","x":2,"y":2,"text":"TheFallen_Stantion2a"},
-{"kind":"Sign","x":10,"y":5,"text":"TheFallen_Stantion2b"},
-{"kind":"Sign","x":1,"y":17,"text":"TheFallen_Stantion2c"},
-{"kind":"Sign","x":18,"y":17,"text":"TheFallen_Stantion2d"},
-{"kind":"Sign","x":3,"y":17,"text":"TheFallen_Stantion2e"},
-{"kind":"Sign","x":16,"y":17,"text":"TheFallen_Stantion2f"}
+{"kind":"Sign","x":2,"y":2,"text":"Sign_StantionWelcome"},
+{"kind":"Sign","x":10,"y":5,"text":"Sign_YourDefense"},
+{"kind":"Sign","x":1,"y":17,"text":"Sign_GoTo_fh"},
+{"kind":"Sign","x":18,"y":17,"text":"Sign_NextStantion"},
+{"kind":"Sign","x":3,"y":17,"text":"Sign_Surface"},
+{"kind":"Sign","x":16,"y":17,"text":"???"}
 ]
 }

@@ -29,9 +29,9 @@
    "items": [
     {"kind":"RottenMeat","x":3,"y":1},
     {"kind":"RottenMeat","x":12,"y":1},
-    {"kind":"Codex","text":"TheFallen_FirstHall_Codex1","x":14,"y":14},
-    {"kind":"Codex","text":"TheFallen_FirstHall_Codex2","x":14,"y":15},
-    {"kind":"Codex","text":"TheFallen_FirstHall_Codex3","x":14,"y":16}
+    {"kind":"Codex","text":"Codex1","x":14,"y":14},
+    {"kind":"Codex","text":"Codex_YouCan't","x":14,"y":15},
+    {"kind":"Codex","text":"Codex2","x":14,"y":16}
   ],
   "mobs" : [
     {"kind":"WaterElemental","x":13,"y":17,"loot":{"kind":"Icecap.Seed"}},

@@ -9,7 +9,7 @@
 {"kind":"Rat"},
 {"kind":"Rat"},
 {"kind":"Albino","loot":{"kind":"Keyring"} },
-{"kind":"Rat"},
+{"kind":"Rat","loot":{"kind":"IronKey","levelId":"pb","depth":4} },
 {"kind":"Rat"},
 {"kind":"Rat"},
 {"kind":"Rat"},
@@ -22,8 +22,7 @@
 {"kind":"PotionOfStrength"},
 {"kind":"ScrollOfUpgrade"},
 {"kind":"Ration"},
-{"kind":"ScrollOfTerror"},
-{"kind":"IronKey","levelId":"pb","depth":4}
+{"kind":"ScrollOfTerror"}
 ],
 "nMobs":11,
 "nTraps":15
